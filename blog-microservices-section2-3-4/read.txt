@@ -1,1 +1,6 @@
 DO NOT USE THIS PROJECT AS A TEMPLATE FOR FUTURE MICROSERVICES - BETTER TEMPLATE LATER...
+
+1. run client - for "client" to run successfully
+
+2. you need to start up "comments"
+3. you need to start up "posts"

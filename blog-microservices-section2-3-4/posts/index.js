@@ -1,10 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const { randomBytes } = require('crypto');
+const cors = require('cors');
 
 const app = express();
 app.use(bodyParser.json()); //when someone sends json in requests, it gets parsed and shows up properly in req handler
-
+app.use(cors());
 const posts = {};
 
 app.get('/posts', (req, res) => {
